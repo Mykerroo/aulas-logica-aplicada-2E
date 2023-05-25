@@ -10,5 +10,17 @@ public class Main {
         qualquer.nome = "Rita";
         qualquer.sobrenome = "Lee";
         qualquer.falar();
+        // Criar novos objetos
+        // Declarar objetos
+        Pessoa rainha;
+        // Instanciar objetos
+        rainha = new Pessoa();
+        // Definir forma do objeto
+        rainha.nome = "Tina";
+        rainha.sobrenome = "Tunner";
+        // Definir comportamento do objeto
+        rainha.falar();
+        System.out.println(rainha.falar("alto"));
+        rainha.comer();
     }
 }
